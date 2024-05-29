@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const App = () => {
   
-  const apikey = ""
+  const apikey = ""//insert from gmail
   const url = "https://api.nasa.gov/planetary/apod?api_key="
 
   const [image,setImage] = useState('https://t4.ftcdn.net/jpg/06/14/46/77/360_F_614467744_7eLjYhKWJIvnu8fk8MTp9VXFYpB15J3p.jpg')
